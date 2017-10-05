@@ -5,7 +5,7 @@ Your challenge, if you wish to accept it (and we sure hope you will), is to opti
 To get started, check out the repository and inspect the code.
 
 ### Getting started
-C:\Users\nasse\Documents\GitHub\frontend-nanodegree-mobile-portfolio-master\frontend-nanodegree-mobile-portfolio-master
+C:/Users/nasse/Documents/GitHub/frontend-nanodegree-mobile-portfolio-master/frontend-nanodegree-mobile-portfolio-master
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
