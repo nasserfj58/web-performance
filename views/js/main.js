@@ -210,11 +210,12 @@ var resizePizzas = function(size) {
         var pizzaContainer=document.getElementsByClassName(".randomPizzaContainer");
       // get the size of the pizzaContainer
         var length=pizzaContainer.length;
+        //get the dx for first pizza outside the loop
+        var dx = determineDx(pizzaContainer[0], size);
         //all the pizza are the same width, so just one width is enough
         var newwidth = (pizzaContainer[0].offsetWidth + dx) + 'px';
 
         for (var i = 0; i < length; i++) {
-            var dx = determineDx(pizzaContainer[i], size);
             pizzaContainer[i][i].style.width = newwidth;
         }
     }
@@ -262,7 +263,6 @@ function updatePositions() {
 }
 window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
-    var windoHight = ;
     var cols = 8;
     var s = 256;
     //calculate number of rows based on screen resoulation
