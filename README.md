@@ -1,10 +1,10 @@
 # Web-Optimization
 
-## TO run this project:
+## To run this project:
 
 #### Download it and open index.html
 
-## TO run this project in the internet:
+## T run this project in the internet:
 
 1. Install npm from https://www.npmjs.com/ .
 2. In git bash write  ``` npm install http-server -g```
