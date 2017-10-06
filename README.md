@@ -17,7 +17,7 @@
 ## For this project I did this steps to provide an optimized Project
 
 ### To improve index.html performance I did this steps:  
-1. Optimize and compress all the photos in index.html (I download the out src phots and did the same with them).
+1. Optimize and compress all the photos in index.html (I download the out src photos and did the same with them).
 2. Minify and  compress all css and html and js included in the index.html page.
 3. I made the print style only get download in print action by adding media=print.
 4. I made the analytics.js defer so it will not block the rendering of the index.html.
