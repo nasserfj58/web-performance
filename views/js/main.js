@@ -206,9 +206,9 @@ var resizePizzas = function(size) {
     }
 
     function changePizzaSizes(size) {
-      //get the container out of the loop
-        var pizzaContainer=document.getElementsByClassName(".randomPizzaContainer");
-      // get the size of the pizzaContainer
+        //get the container out of the loop
+        var pizzaContainer=document.getElementsByClassName("randomPizzaContainer");
+       // get the size of the pizzaContainer
         var length=pizzaContainer.length;
         //get the dx for first pizza outside the loop
         var dx = determineDx(pizzaContainer[0], size);
@@ -216,7 +216,7 @@ var resizePizzas = function(size) {
         var newwidth = (pizzaContainer[0].offsetWidth + dx) + 'px';
 
         for (var i = 0; i < length; i++) {
-            pizzaContainer[i][i].style.width = newwidth;
+            pizzaContainer[i].style.width = newwidth;
         }
     }
     changePizzaSizes(size);

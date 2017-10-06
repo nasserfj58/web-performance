@@ -1,5 +1,19 @@
 # Web-Optimization
 
+## TO run this project:
+
+#### Download it and open index.html
+
+## TO run this project in the internet:
+
+1. Install npm from https://www.npmjs.com/ .
+2. In git bash write  ``` npm install http-server -g```
+3. To make the project work on the http-server in git bash write ``` http-server [path] ``` [path] is the project path.
+4. Install ngrok from: https://ngrok.com/, unzip it and put it in top of your project folder, after that run ngrok.exe  
+5. In ngrok.exe, run ```ngrok.exe http 8080```  since npm http server run on port 8080.
+6. you can enter the forwading url to your browser to see the project in the internet.
+
+
 ## For this project I did this steps to provide an optimized Project
 
 ### To improve index.html performance I did this steps:  
