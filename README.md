@@ -4,7 +4,7 @@
 
 #### Download it and open index.html
 
-## T run this project in the internet:
+## To run this project in the internet:
 
 1. Install npm from https://www.npmjs.com/ .
 2. In git bash write  ``` npm install http-server -g```
