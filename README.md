@@ -24,6 +24,8 @@
 2. Minify and  compress all css and html and js included in the index.html page.
 3. I made the print style only get download in print action by adding media=print.
 4. I made the analytics.js defer so it will not block the rendering of the index.html.
+5. I used download webfont async with google fonts api via ajax, and after that i used webfont.load to load it.
+reference: https://www.lockedowndesign.com/load-google-fonts-asynchronously-for-page-speed/
 
 ### In main.js I did this steps:
 In the callback function in DOMContentLoaded event inside scroll event I didt this steps:
